@@ -1,1 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    html {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+html, body {
+    height: 100%;
+    font-family: Bradley Hand, cursive ;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*This is where your first light grey background starts*/
+
+header {
+    background-color: lightgrey;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: row wrap;
+	align-items: flex-start;
+    justify-content: left;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    background-color: white;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1.5px;
+    margin-bottom: 20px;
+}
+
+#box {
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.middle-container {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+    padding: 6px; 
+}
+
+.top-image {
+    display: flex;
+	align-items: center;
+    justify-content: stretch;
+    margin-bottom: 10px;
+}
+
+.top-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    line-height: 1.5;
+}
+
+.top-content .text-container p {
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+#project {
+    padding: 2px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+.middle-content {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background: lightgrey;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 2%;
+}
+
+footer nav p {
+    color: black;
+    font-size: 18px;
+}
+
+footer nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    padding: 2% 5%;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+.twitter-mention-buttom {
+    align-items: left;
+}
